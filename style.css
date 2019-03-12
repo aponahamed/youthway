@@ -1,0 +1,113 @@
+.container{
+	
+}
+.navbar{
+	background:#000;
+}
+.nav-item{
+	padding-left:20px;
+}
+.nav-item a{
+	text-transform:uppercase;
+}
+.carousel-item{
+	height:800px;
+}
+.carousel-img-1{
+	background-image:url(images/alpha8.jpg);
+	background-size:cover;
+}
+.carousel-img-2{
+	background-image:url(images/alpha3.jpg);
+	background-size:cover;
+}
+.carousel-img-3{
+	background-image:url(images/alpha4.jpg);
+	background-size:cover;
+}
+.carousel-img-4{
+	background-image:url(images/alpha5.jpg);
+	background-size:cover;
+}
+.carousel-img-5{
+	background-image:url(images/alpha6.jpg);
+	background-size:cover;
+}
+.adom{
+	height:250px;
+}
+.dark-overlay{
+	background:rgba(0,0,0,0.6);
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	position:absolute;
+}
+.ap{
+	padding:20px;
+}
+.apon{
+	margin-top:50px;
+}
+.sectionap{
+	height:auto;
+	background-color:#FAF6FB;
+}
+.nav{
+	border-left:0px solid #540F8F;
+	list-style: none;
+}
+.footer1{
+	background:#000;
+	color:#fff;
+	text-align: right;
+}
+.icon-text{
+	color:#fff;
+	font-size:30px;
+	margin:10px auto;
+}
+.footer2{
+	background:#000;
+}
+.fot-f-style{
+	font-size:14px;
+	text-decoration:none;
+	color:#ffffff;
+}
+.fot-f-style:hover{
+	color:#ffb3b3;
+}
+.footer3{
+	background:#000;
+	
+}
+.iconf{
+	font-size:20px;
+	color:#ffffff;
+}
+.iconf:hover{
+	color:#0040ff;
+}
+@media(max-width: 767px){
+	.nav-item{
+		padding-left:0px;
+	}
+	.getstarted{
+		min-height:300px;
+	}
+}
+@media(max-width: 520px){
+	.carousel-item h2{
+		font-size: 38px;
+	}
+	.getstarted{
+		min-height:350px;
+	}
+}
+@media(max-width: 520px){
+	.getstarted{
+		min-height:400px;
+	}
+}
